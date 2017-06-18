@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/ic_chrome_reader_mode_black_48dp"
+
+    android:textAlignment="viewStart">
+
+            <TextView
+                android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+
+                android:contentDescription="@string/appwidget_text"
+                        android:text="@string/appwidget_text"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:fillViewport="false"
+                        android:textStyle="bold|italic"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentBottom="false"
+                android:layout_centerInParent="false"
+                android:layout_centerHorizontal="false"
+                android:layout_centerVertical="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentStart="true" />
+
+</RelativeLayout>
